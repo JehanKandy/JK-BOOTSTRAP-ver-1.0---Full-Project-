@@ -7,7 +7,8 @@
     <title>All Buttons Styles</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../main_style.css">
+    <link rel="stylesheet" href="../all_style.css">
 
     <style>        
     .container {
@@ -46,6 +47,9 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="docs.php">Get Started</a>
+        </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Buttons
@@ -93,9 +97,67 @@
 <br><br><br><br>
 <div class="container">
     <h1>Buttons</h1>
+    <br>
+    <b><p>JK Bootstrap Button Style </b> Normal</p>
+    <input type="button" value="JK Bootstrap" class="jk-btn">
+    <input type="button" value="JK Bootstrap" class="jk-btn-blue">
+    <input type="button" value="JK Bootstrap" class="jk-btn-red">
+    <input type="button" value="JK Bootstrap" class="jk-btn-lightblue">
+    <input type="button" value="JK Bootstrap" class="jk-btn-gray">
+    <input type="button" value="JK Bootstrap" class="jk-btn-dark">
+    <button type="button" class="jk-btn">JK Btn</button>
+    <button class="jk-btn">Hello</button>
+
+    <br><br>
+    <b><p>Code : </b>Normal Example</p>
+    <div class="box-code-btn">
+        <br><br>
+        
+        <pre>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn"</span>&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn-blue"</span>&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn-red"</span>&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn-lightblue"</span>&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn-gray"</span>&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn-dark"</span>&gt;</span>
+        
+            <span style="color: rgb(143, 10, 10);">&lt;button <span style="color: red;">type</span><span style="color:blue;">="button" </span></span><span style="color: red;">class</span><span style="color:blue">="jk-btn"</span><span style="color: rgb(143, 10, 10);">&gt;</span></span><span style="color: black;">JK Btn</span><span style="color: rgb(143, 10, 10);">&lt;button&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;button <span style="color: red;">class</span><span style="color:blue;">="jk-btn"<span style="color: rgb(143, 10, 10);">&gt;</span></span><span style="color: black;">Hello</span><span style="color: rgb(143, 10, 10);">&lt;button&gt;</span>        
+        </pre>
+    </div>
+    <br><br><br>
+    <b><p>JK Bootstrap Button Style </b> Outline</p>
+    <input type="button" value="JK Bootstrap" class="jk-btn-outer">
+    <input type="button" value="JK Bootstrap" class="jk-btn-outer-blue">
+    <input type="button" value="JK Bootstrap" class="jk-btn-outer-red">
+    <input type="button" value="JK Bootstrap" class="jk-btn-outer-lightblue">
+    <input type="button" value="JK Bootstrap" class="jk-btn-outer-gray">
+    <input type="button" value="JK Bootstrap" class="jk-btn-outer-dark">
+    <button type="button" class="jk-btn-outer">JK Btn</button>
+    <button class="jk-btn-outer">Hello</button>
+
+    <br><br>
+    <b><p>Code : </b>Outline Example</p>
+
+    <div class="box-code-btn">
+    <br><br>
+        
+        <pre>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn-outer"</span>&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn-outer-blue"</span>&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn-outer-red"</span>&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn-outer-lightblue"</span>&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn-outer-gray"</span>&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;input <span style="color: red;">type</span><span style="color:blue;">="button" </span><span style="color: red;">value</span><span style="color: blue;">="JK BOOTSTRAP" </span><span style="color: red;">class</span><span style="color:blue;">="jk-btn-outer-dark"</span>&gt;</span>
+        
+            <span style="color: rgb(143, 10, 10);">&lt;button <span style="color: red;">type</span><span style="color:blue;">="button" </span></span><span style="color: red;">class</span><span style="color:blue">="jk-btn-outer"</span><span style="color: rgb(143, 10, 10);">&gt;</span></span><span style="color: black;">JK Btn</span><span style="color: rgb(143, 10, 10);">&lt;button&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;button <span style="color: red;">class</span><span style="color:blue;">="jk-btn-outer"<span style="color: rgb(143, 10, 10);">&gt;</span></span><span style="color: black;">Hello</span><span style="color: rgb(143, 10, 10);">&lt;button&gt;</span>        
+        </pre>
+    </div>
 </div>
+<br>
 
-
+<br><br><br><br>
 <div class="footer">
     <br><br><br>
     <center>
