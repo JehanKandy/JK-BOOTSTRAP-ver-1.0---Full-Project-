@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital@1&family=Teko:wght@300&display=swap');
+.banner a {
+    text-decoration: none;
+}
+
+.slide-bar {
+    background-color: red;
+    position: fixed;
+    width: 200px;
+}
+
+.jk_banner h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 350%;
+}
+
+.banner h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 350%;
+}
+
+.container {
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(240, 240, 240);
+    background-size: cover;
+    background-position: center;
+}
+
+.container h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 350%;
+    text-align: left;
+}
+
+.carousel-inner h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 800%;
+}
+
+.carousel-inner p {
+    text-align: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 400%;
+}
+
+.footer {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(248, 248, 248);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer table h1 {
+    color: rgb(167, 167, 167);
+}
+
+.footer table h2 {
+    color: rgb(54, 54, 54);
+}
+
+.box_code1 {
+    width: 200px;
+    height: 140px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ebebeb;
+    margin: 0;
+    text-align: center;
+}
