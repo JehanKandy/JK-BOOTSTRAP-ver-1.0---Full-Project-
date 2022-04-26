@@ -82,12 +82,15 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="docs.php">Get Started</a>
+        </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Buttons
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">All Button Styles</a>
+          <a class="dropdown-item" href="all_buttons.php">All Button Styles</a>
           <a class="dropdown-item" href="#">Buttons Colors</a>
 
         </div>
@@ -97,7 +100,7 @@
           Headers
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">All Headers Styles</a>
+          <a class="dropdown-item" href="all_headers.php">All Headers Styles</a>
           <a class="dropdown-item" href="#">Headers Colors</a>
 
         </div>
@@ -107,7 +110,7 @@
           Images
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">All Images Styles</a>
+          <a class="dropdown-item" href="all_images.php">All Images Styles</a>
           <a class="dropdown-item" href="#">Images Colors</a>
 
         </div>
