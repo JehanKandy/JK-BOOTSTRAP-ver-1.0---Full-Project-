@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Images Styles</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../main_style.css">
+    <link rel="stylesheet" href="../style_temp.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
@@ -61,11 +63,11 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Headers
+        Texts
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="all_headers.php">All Headers Styles</a>
-          <a class="dropdown-item" href="#">Headers Colors</a>
+          <a class="dropdown-item" href="all_text.php">All Text Styles</a>
+          <a class="dropdown-item" href="#">Text Colors</a>
 
         </div>
       </li>
@@ -96,6 +98,166 @@
 <br><br><br><br>
 <div class="container">
     <h1>Images</h1>
+    <h2>Image Tag</h2>
+    <br>
+    <pre><span style="color: rgb(143, 10, 10);">&lt;img </span><span style="color: red;">src</span><span style="color: blue;">="..."</span> <span style="color: red;">alt</span><span style="color: blue;">="..."</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+    <br>
+    In this tag, <span style="color: red;">&lt;img&gt;</span>use for embed an Image in webpage. <br>
+    The <span style="color: red;">&lt;img&gt;</span> has two attributes
+    <ul>
+        <li>
+            src - path of image
+        </li>
+        <li>
+            alt - alternate text
+        </li>
+    </ul>
+    <hr>
+    <h4>1). Image Style - Sizing</h4>
+    <br>
+    <table border="0">
+        <tr>
+            <td style="vertical-align: top;">
+                <img src="../images/move3.jpg" alt="Image Sizing 1" class="jk-img-100-100">
+            </td>
+            <td>
+                <img src="../images/move3.jpg" alt="Image Sizing 2" class="jk-img-200-200">
+            </td>
+            <td>
+                <img src="../images/move3.jpg" alt="Image Sizing 3" class="jk-img-100-200">
+            </td>
+            <td style="vertical-align: top;">
+                <img src="../images/move3.jpg" alt="Image Sizing 4" class="jk-img-200-100">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                100x100
+            </td>
+            <td align="center">
+                200x200
+            </td>
+            <td align="center">
+                100x200
+            </td>
+            <td align="center">
+                200x100
+            </td>
+        </tr>
+    </table>
+    <br>
+    <h4>Code : </h4>
+    <div class="box-img-style">
+        <br>
+            <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- 100x100 --&gt</span></pre>
+            <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 1"</span> class<span style="color: blue;">="jk-img-100-100"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+            <br>
+            <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- 200x200 --&gt</span></pre>
+            <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 2"</span> class<span style="color: blue;">="jk-img-200-200"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+            <br>
+            <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- 100x200 --&gt</span></pre>
+            <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 3"</span> class<span style="color: blue;">="jk-img-100-200"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+            <br>
+            <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- 200x100 --&gt</span></pre>
+            <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 4"</span> class<span style="color: blue;">="jk-img-200-100"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+        <br>
+    </div>
+
+    
+    <br><br><hr><br>
+    <h4>2). Image Style - border-radius</h4>
+    <br><br>
+    <table border="0">
+        <tr>
+            <td>
+                <img src="../images/move3.jpg" alt="Image Border 1" class="jk-img-bd">
+            </td>
+            <td>
+                <img src="../images/move3.jpg" alt="Image Border 2" class="jk-img-bd-10">
+            </td>
+            <td>
+                <img src="../images/move3.jpg" alt="Image Border 3" class="jk-img-bd-20">
+            </td>
+            <td>
+                <img src="../images/move3.jpg" alt="Image Border 4" class="jk-img-bd-50">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                Normal
+            </td>
+            <td align="center">
+                border-radius: 10px
+            </td>
+            <td align="center">
+                border-radius: 20px
+            </td>
+            <td align="center">
+                border-radius: 50px
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="../images/move3.jpg" alt="Image Border 5" class="jk-img-bd-p10">
+            </td>
+            <td>
+                <img src="../images/move3.jpg" alt="Image Border 6" class="jk-img-bd-p20">
+            </td>
+            <td>
+                <img src="../images/move3.jpg" alt="Image Border 7" class="jk-img-bd-p50">
+            </td>
+            <td>
+                <img src="../images/move3.jpg" alt="Image Border 7" class="jk-img-bd-cir">
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                border-radius: 10%
+            </td>
+            <td align="center">
+                border-radius: 20%
+            </td>
+            <td align="center">
+                border-radius: 50%
+            </td>
+            <td align="center">
+                border-radius: 100%
+            </td>
+        </tr>
+    </table>
+    <br>
+    <h4>Code : </h4>
+
+    <div class="box-img-bd">
+        <br>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- Normal --&gt</span></pre>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 1"</span> class<span style="color: blue;">="jk-img-bd"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+        <br>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- border-radius: 10px --&gt</span></pre>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 2"</span> class<span style="color: blue;">="jk-img-bd-10"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+        <br>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- border-radius: 20px --&gt</span></pre>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 3"</span> class<span style="color: blue;">="jk-img-bd-20"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+        <br>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- border-radius: 50px --&gt</span></pre>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 4"</span> class<span style="color: blue;">="jk-img-bd-50"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+        <br>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- border-radius: 10% --&gt</span></pre>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 5"</span> class<span style="color: blue;">="jk-img-bd-p10"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+        <br>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- border-radius: 20% --&gt</span></pre>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 6"</span> class<span style="color: blue;">="jk-img-bd-p20"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+        <br>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- border-radius: 50% --&gt</span></pre>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 7"</span> class<span style="color: blue;">="jk-img-bd-p50"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+        <br>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: gray;">&lt;!-- border-radius: 100% --&gt</span></pre>
+        <pre>&nbsp;&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;img <span style="color: red;">src<span style="color: blue;">="..."</span> alt<span style="color: blue;">="Image Sizing 8"</span> class<span style="color: blue;">="jk-img-bd-cir"</span><span style="color: rgb(143, 10, 10);">&gt;</span></pre>
+        
+        <br>
+    </div>
+    <br><br><br><br><br>
+
 </div>
 
 
