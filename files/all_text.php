@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Headers Styles</title>
+
+
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../main_style.css">
+    <link rel="stylesheet" href="../style_temp.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
@@ -18,6 +22,9 @@
         background-position: center;
 
     }
+
+
+
     </style>
 </head>
 <body>
@@ -61,11 +68,11 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Headers
+        Texts
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="all_headers.php">All Headers Styles</a>
-          <a class="dropdown-item" href="#">Headers Colors</a>
+          <a class="dropdown-item" href="all_text.php">All Text Styles</a>
+          <a class="dropdown-item" href="#">Text Colors</a>
 
         </div>
       </li>
@@ -95,7 +102,78 @@
 
 <br><br><br><br>
 <div class="container">
-    <h1>Headers</h1>
+    <h1>All Text Style</h1>
+
+    <h2>Paragraph Tag</h2>
+    <br><br>
+        <br>
+        <pre>
+            <span style="color: rgb(143, 10, 10);">&lt;p&gt;</span><span style="color: black;">...</span><span style="color: rgb(143, 10, 10);">&lt;p&gt;</span>
+        </pre>
+        
+    The paragraph tag defines using start and end tags <span style="color: red;">&lt;p&gt;&lt;/p&gt;</span></p>
+    <p>According to this tag, browsers automatically add a single blank line before the <pre></pre>.</p>
+    
+    <h4><b>Example 01</b></h4>
+    <p>Hello, This is Paragraph.</p>
+    <br>
+    <h4><b>Code : </b></h4>
+    <div class="box-code-p">
+        <br>
+        <pre>&nbsp;&nbsp;<span style="color: rgb(143, 10, 10);">&lt;p&gt;</span><span style="color: black;">Hello, This is Paragraph.</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span></pre>
+        <br>
+    </div>
+    <br><br><br>
+    <hr><br>
+    <h4><b>Example 02</b></h4> 
+    Style 01 - Sizing Font
+    <br><br>
+
+    <p class="jk-p-lg">JK Bootstrap</p>
+    <p class="jk-p-md">JK Bootstrap</p>
+    <p class="jk-p-sm">JK Bootstrap</p>
+    <br>
+    <p class="jk-p-lg-i">JK Bootstrap</p>
+    <p class="jk-p-md-i">JK Bootstrap</p>
+    <p class="jk-p-sm-i">JK Bootstrap</p>
+    <br>
+    <p class="jk-p-lg-b">JK Bootstrap</p>
+    <p class="jk-p-md-b">JK Bootstrap</p>
+    <p class="jk-p-sm-b">JK Bootstrap</p>
+    <br>
+    <p class="jk-p-lg-u">JK Bootstrap</p>
+    <p class="jk-p-md-u">JK Bootstrap</p>
+    <p class="jk-p-sm-u">JK Bootstrap</p>
+
+    <br><br>
+    <h4><b>Code : </b></h4>
+    <div class="box-p-style">
+        <br><br>
+        <pre>
+            <span style="color: gray;">&lt;!-- Normal Style --&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-lg"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-md"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-sm"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+        
+            <span style="color: gray;">&lt;!-- Italic Style --&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-lg-i"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-md-i"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-sm-i"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+        
+            <span style="color: gray;">&lt;!-- Bold Style --&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-lg-b"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-md-b"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-sm-b"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+        
+            <span style="color: gray;">&lt;!-- Underline Style --&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-lg-u"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-md-u"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+            <span style="color: rgb(143, 10, 10);">&lt;p <span style="color: red;">class<span style="color: blue;">="jk-p-sm-u"</span></span>&gt;</span><span style="color: black;">JK Bootstrap</span><span style="color: rgb(143, 10, 10);">&lt;/p&gt;</span>
+        </pre>
+        <br><br>
+    </div>
+
+    <br><br><br><br><br>
 </div>
 
 
