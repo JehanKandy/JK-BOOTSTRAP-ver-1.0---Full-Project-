@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Kanit:ital,wght@1,500&family=Open+Sans&family=Oswald:wght@500&family=PT+Sans+Narrow:wght@700&display=swap');
+
+/*BUTTON STYLES*/
+
+
+/*Button : style - mormal */
+
+.jk-btn {
+    background-color: #4caf5c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.jk-btn-blue {
+    background-color: rgb(0, 128, 202);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.jk-btn-red {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.jk-btn-lightblue {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.jk-btn-gray {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.jk-btn-dark {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/*Button : style - outline */
+
+.jk-btn-outer {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    padding: 15px 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.jk-btn-outer-blue {
+    background-color: white;
+    color: rgb(0, 128, 202);
+    border: 2px solid rgb(0, 128, 202);
+    padding: 15px 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.jk-btn-outer-red {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    padding: 15px 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.jk-btn-outer-lightblue {
+    background-color: white;
+    color: lightblue;
+    border: 2px solid lightblue;
+    padding: 15px 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.jk-btn-outer-gray {
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+    padding: 15px 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.jk-btn-outer-dark {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 15px 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/*--------------------Text Style----------------------------*/
+
+.jk-p-lg {
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jk-p-md {
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jk-p-sm {
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/**************************************/
+
+.jk-p-lg-i {
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jk-p-md-i {
+    font-size: x-large;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jk-p-sm-i {
+    font-size: large;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/**************************************/
+
+.jk-p-lg-b {
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jk-p-md-b {
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jk-p-sm-b {
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/**************************************/
+
+.jk-p-lg-u {
+    font-size: xx-large;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jk-p-md-u {
+    font-size: x-large;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jk-p-sm-u {
+    font-size: large;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*-------------Image Style------------*/
+
+.jk-img-100-100 {
+    width: 100px;
+    height: 100px;
+}
+
+.jk-img-200-200 {
+    width: 200px;
+    height: 200px;
+}
+
+.jk-img-100-200 {
+    width: 100px;
+    height: 200px;
+}
+
+.jk-img-200-100 {
+    width: 200px;
+    height: 100px;
+}
+
+.jk-img-bd {
+    width: 200px;
+    height: 150px;
+    border: none;
+}
+
+.jk-img-bd-10 {
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+}
+
+.jk-img-bd-20 {
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+}
+
+.jk-img-bd-50 {
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 50px;
+}
+
+.jk-img-bd-p10 {
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 10%;
+}
+
+.jk-img-bd-p20 {
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 20%;
+}
+
+.jk-img-bd-p50 {
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+}
+
+.jk-img-bd-cir {
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 100%;
+}

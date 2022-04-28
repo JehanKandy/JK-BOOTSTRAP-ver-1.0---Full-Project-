@@ -1,0 +1,44 @@
+.box-code-btn {
+    width: 800px;
+    height: 300px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ebebeb;
+    margin: 0;
+}
+
+.box-code-p {
+    width: 300px;
+    height: 100%;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ebebeb;
+    margin: 0;
+}
+
+.box-p-style {
+    width: 800px;
+    height: 100%;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ebebeb;
+    margin: 0;
+}
+
+.box-img-style {
+    width: 800px;
+    height: 100%;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ebebeb;
+    margin: 0;
+}
+
+.box-img-bd {
+    width: 800px;
+    height: 100%;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ebebeb;
+    margin: 0;
+}
