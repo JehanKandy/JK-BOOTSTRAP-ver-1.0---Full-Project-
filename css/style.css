@@ -3,12 +3,6 @@
     text-decoration: none;
 }
 
-.slide-bar {
-    background-color: red;
-    position: fixed;
-    width: 200px;
-}
-
 .jk_banner h1 {
     text-align: center;
     color: white;
@@ -77,13 +71,3 @@
     color: rgb(54, 54, 54);
 }
 
-.box_code1 {
-    width: 200px;
-    height: 140px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 0;
-    background-color: #ebebeb;
-    margin: 0;
-    text-align: center;
-}
