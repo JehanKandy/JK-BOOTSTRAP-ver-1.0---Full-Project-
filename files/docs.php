@@ -7,6 +7,7 @@
     <title>Documentation</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style_temp.css">
     <style>
         body{
             box-sizing: border-box;            
@@ -82,7 +83,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
+    <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="docs.php">Get Started</a>
         </li>
       <li class="nav-item dropdown">
@@ -97,11 +98,11 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Headers
+        Texts
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="all_headers.php">All Headers Styles</a>
-          <a class="dropdown-item" href="#">Headers Colors</a>
+          <a class="dropdown-item" href="all_text.php">All Text Styles</a>
+          <a class="dropdown-item" href="#">Text Colors</a>
 
         </div>
       </li>
