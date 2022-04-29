@@ -1,2 +1,2 @@
 # JK-BOOTSTRAP-ver-1.0
-My one and unique Bootstrap site
+My unique css framework - JK BOOTSTRAP
