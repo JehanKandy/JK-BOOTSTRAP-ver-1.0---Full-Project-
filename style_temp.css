@@ -42,3 +42,12 @@
     background-color: #ebebeb;
     margin: 0;
 }
+
+.box-table-style {
+    width: 800px;
+    height: 100%;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ebebeb;
+    margin: 0;
+}
