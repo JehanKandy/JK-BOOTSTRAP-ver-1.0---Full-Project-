@@ -322,3 +322,240 @@
     border: none;
     border-radius: 100%;
 }
+
+
+/*---------- Table Styles ---------------*/
+
+
+/*------style of jk-table---------*/
+
+.jk-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.jk-table thead tr {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.jk-table th,
+td {
+    padding: 12px 15px;
+}
+
+.jk-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.jk-table tbody .active-row {
+    background-color: #f3f3f3;
+    color: #4CAF50;
+}
+
+.jk-table tbody tr:last-of-type {
+    border-bottom: 2px solid #4CAF50;
+}
+
+
+/*------style of jk-table-blue ---------*/
+
+.jk-table-blue {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.jk-table-blue thead tr {
+    background-color: rgb(0, 128, 202);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.jk-table-blue th,
+td {
+    padding: 12px 15px;
+}
+
+.jk-table-blue tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.jk-table-blue tbody .active-row {
+    background-color: #f3f3f3;
+    color: rgb(0, 128, 202);
+}
+
+.jk-table-blue tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(0, 128, 202);
+}
+
+
+/*------style of jk-table-red ---------*/
+
+.jk-table-red {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.jk-table-red thead tr {
+    background-color: red;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.jk-table-red th,
+td {
+    padding: 12px 15px;
+}
+
+.jk-table-red tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.jk-table-red tbody .active-row {
+    background-color: #f3f3f3;
+    color: red;
+}
+
+.jk-table-red tbody tr:last-of-type {
+    border-bottom: 2px solid red;
+}
+
+
+/*------style of jk-table-lightblue ---------*/
+
+.jk-table-lightblue {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.jk-table-lightblue thead tr {
+    background-color: lightblue;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.jk-table-lightblue th,
+td {
+    padding: 12px 15px;
+}
+
+.jk-table-lightblue tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.jk-table-lightblue tbody .active-row {
+    background-color: #f3f3f3;
+    color: lightblue;
+}
+
+.jk-table-lightblue tbody tr:last-of-type {
+    border-bottom: 2px solid lightblue;
+}
+
+
+/*------style of jk-table-gray ---------*/
+
+.jk-table-gray {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.jk-table-gray thead tr {
+    background-color: gray;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.jk-table-gray th,
+td {
+    padding: 12px 15px;
+}
+
+.jk-table-gray tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.jk-table-gray tbody .active-row {
+    background-color: #f3f3f3;
+    color: gray;
+}
+
+.jk-table-gray tbody tr:last-of-type {
+    border-bottom: 2px solid gray;
+}
+
+
+/*------style of jk-table-dark ---------*/
+
+.jk-table-dark {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.jk-table-dark thead tr {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.jk-table-dark th,
+td {
+    padding: 12px 15px;
+}
+
+.jk-table-dark tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.jk-table-dark tbody .active-row {
+    background-color: #f3f3f3;
+    color: black;
+}
+
+.jk-table-dark tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
