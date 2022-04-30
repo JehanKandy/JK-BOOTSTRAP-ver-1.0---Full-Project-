@@ -91,7 +91,7 @@
     <br><br><br>
     <h1>Get Started your web development <br> with JK BOOTSTRAP</h1>
         <br></br>
-    <a href="#"><button class="btn btn-primary"><h2>Get Started</h2></button></a>
+    <a href="files/docs.php"><button class="btn btn-primary"><h2>Get Started</h2></button></a>
 
 <br><br><br><br><br>
 
@@ -171,6 +171,7 @@
             <tr>
                 <td style="vertical-align: top;">
                     <p>Develop your web Uniquely</p> with JK BOOTSTRAP
+                    <p>ongoing version - 1.0</p>
                 </td>
                 <td>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
