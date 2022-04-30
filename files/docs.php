@@ -71,18 +71,18 @@
     <a class="navbar-brand"  style="font-family:'Bebas Neue', cursive; font-size:150%" href="#">JK BOOTSTRAP - Style everything -- Documentation</a>
     <div>
         <a href="../index.php" style="text-decoration: none; color:white; font-size:250%; font-family: 'Teko', sans-serif;">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-        <a href="#" style="text-decoration: none; color:white; font-size:250%; font-family: 'Teko', sans-serif;">Documentation</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="docs.php" style="text-decoration: none; color:white; font-size:250%; font-family: 'Teko', sans-serif;">Documentation</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
         <a href="icon.php" style="text-decoration: none; color:white; font-size:250%; font-family: 'Teko', sans-serif;">Icons</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
         <a href="example.php" style="text-decoration: none; color:white; font-size:250%; font-family: 'Teko', sans-serif;">Examples</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
     </div>
     <span class="navbar-text">
         v1.0 &nbsp&nbsp&nbsp&nbsp
-        <a href="files/version.php"><button class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+        <a href="version.php"><button class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
   <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
   <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
 </svg> &nbsp Download</button></a>
     </span>
-</nav> 
+</nav>
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -149,7 +149,7 @@
         <div class="box_code1">
             <br><br>
             <pre>
-                <span style="color: rgb(143, 10, 10);">&lt;link</span> <span style="color: red;">rel=</span><span style="color: blue;">"stylesheet"</span> <span style="color: red;">href=</span><span style="color: blue;">"https://drive.google.com/uc?id=11Sp-uR_3rrfpsL91BM2OlnPkQpEzTmlc"</span><span class="nt">&gt;</span>&nbsp&nbsp&nbsp&nbsp
+                <span style="color: rgb(143, 10, 10);">&lt;link</span> <span style="color: red;">rel</span><span style="color: blue;">="stylesheet"</span> <span style="color: red;">href</span><span style="color: blue;">="https://drive.google.com/uc?id=10O0bxy3OQ0ULSyCNfJVEZdHA-KCpsj52"</span><span class="nt">&gt;</span>&nbsp&nbsp&nbsp&nbsp
             </pre>
             
         </div>
@@ -162,13 +162,13 @@
             <br><br>
             <pre>
                 <span style="color: rgb(143, 10, 10);">&lt;!DOCTYPE <span style="color: red;">html</span>&gt;</span>
-                <span style="color: rgb(143, 10, 10);">&lt;html <span style="color: red;">lang=<span style="color: blue;">"en"</span></span>&gt;</span>
+                <span style="color: rgb(143, 10, 10);">&lt;html <span style="color: red;">lang<span style="color: blue;">="en"</span></span>&gt;</span>
                 <span style="color: rgb(143, 10, 10);">&lt;head&gt;</span>
-                &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: rgb(143, 10, 10);">&lt;meta <span style="color: red;">charset=</span><span style="color:blue;">"UTF-8"</span>&gt;</span>
+                &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: rgb(143, 10, 10);">&lt;meta <span style="color: red;">charset</span><span style="color:blue;">="UTF-8"</span>&gt;</span>
                 &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: rgb(143, 10, 10);">&lt;meta <span style="color: red;">http-equiv</span><span style="color: blue;">="X-UA-Compatible"</span> <span style="color: red;">content<span style="color: blue;">="IE=edge"</span>&gt;</span>
-                &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: rgb(143, 10, 10);">&lt;meta <span style="color: red;">name=</span><span style="color: blue;">"viewport"</span> <span style="color: red;">content</span><span style="color: blue;">="width=device-width, initial-scale=1.0"</span>&gt;</span>
+                &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: rgb(143, 10, 10);">&lt;meta <span style="color: red;">name</span><span style="color: blue;">="viewport"</span> <span style="color: red;">content</span><span style="color: blue;">="width=device-width, initial-scale=1.0"</span>&gt;</span>
                 &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: rgb(143, 10, 10);">&lt;title&gt;<span style="color: black;">Document</span>&lt;/title&gt;</span>
-                &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: rgb(143, 10, 10);">&lt;link</span> <span style="color: red;">rel=</span><span style="color: blue;">"stylesheet"</span> <span style="color: red;">href=</span><span style="color: blue;">"https://drive.google.com/uc?id=11Sp-uR_3rrfpsL91BM2OlnPkQpEzTmlc"</span><span class="nt">&gt;</span>&nbsp&nbsp&nbsp&nbsp
+                &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: rgb(143, 10, 10);">&lt;link</span> <span style="color: red;">rel</span><span style="color: blue;">="stylesheet"</span> <span style="color: red;">href</span><span style="color: blue;">="https://drive.google.com/uc?id=10O0bxy3OQ0ULSyCNfJVEZdHA-KCpsj52"</span><span class="nt">&gt;</span>&nbsp&nbsp&nbsp&nbsp
                 <span style="color: rgb(143, 10, 10);">&lt;/head&gt;</span>
                 <span style="color: rgb(143, 10, 10);">&lt;body&gt;</span>
                 &nbsp&nbsp&nbsp&nbsp&nbsp<span style="color: black;">Welcome to JK Bootstrap</span>
