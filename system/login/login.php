@@ -1,3 +1,14 @@
+<?php 
+    include_once("lib/functions/admin_user_func.php");
+
+    if(isset($_POST['login_btn'])){
+        $result = login($_POST['user'],$_POST['pass']);
+        echo $result;
+    }
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +22,7 @@
     <style>
         .login {
             width: 100%;
-            height: 50%;
+            height: 100%;
             background: linear-gradient(to bottom right, #3333ff 0%, #ff00ff 100%);
             background-size: cover;
             background-position: center;
@@ -94,7 +105,7 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <p>Do't have an account? <a href="reg.php" style="color:#ff00ff;"><span>Create One</span></a></p>
+                            <p>Don't have an account? <a href="reg.php" style="color:#ff00ff;"><span>Create One</span></a></p>
                         </div>
                 </form>
                 
