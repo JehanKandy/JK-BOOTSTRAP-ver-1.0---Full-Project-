@@ -3,11 +3,7 @@
 
     if(isset($_POST['register'])){
         $result = userReg($_POST['user'],$_POST['email'],$_POST['password'],$_POST['cpassword']); 
-        echo $result;
-        
-        function errormsg($msg){
-            echo $msg;
-        }
+        echo $result;       
 
     }
 ?>
