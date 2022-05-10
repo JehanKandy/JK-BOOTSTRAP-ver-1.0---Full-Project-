@@ -1,56 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital@1&family=Teko:wght@300&display=swap');
-.banner a {
-    text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titillium+Web&family=Ubuntu:wght@700&display=swap');
+body {
+    min-width: 100%;
+    min-height: 100%;
 }
 
-.jk_banner h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 350%;
-}
-
-.banner h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 350%;
-}
-
-.container {
+.h-contant {
     width: 100%;
-    height: 60vh;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.11);
+    background-size: cover;
+    background-position: center;
+}
+
+.h-contant h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 300%;
+}
+
+.h-contant table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1 {
+    width: 550px;
+    height: 350px;
+    border: none;
+    border-radius: 15px;
+}
+
+.login-content {
+    width: 100%;
+    height: 200%;
+    background-image: url("../images/email3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box {
     background-color: white;
-    background-size: cover;
-    background-position: center;
+    width: 30%;
+    padding: 50px;
+    margin-left: 30%;
+    border: none;
+    border-radius: 1%;
+    box-shadow: 5px 10px 10px #2949b4;
 }
 
-.contact {
+.login-box h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 300%;
+}
+
+.login-box p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 100%;
+}
+
+.login-box table {
     width: 100%;
-    height: 20vh;
-    background-color: rgb(240, 240, 240);
-    background-size: cover;
-    background-position: center;
 }
 
-.container h1 {
-    text-align: center;
-    color: black;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 350%;
-    text-align: left;
+.login-box .login-input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.466);
+    outline: none;
+    resize: none;
 }
 
-.carousel-inner h2 {
-    text-align: center;
+.login-box .login-btn {
+    background: linear-gradient(to right, #44bbf1 -120%, #3a74f1 120%);
+    border: none;
+    border-radius: 5px;
     color: white;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 800%;
+    font-weight: bolder;
+    font-size: large;
+    width: 100%;
+    height: 50px;
 }
 
-.carousel-inner p {
-    text-align: center;
+.login-box .login-btn:hover {
+    background: linear-gradient(to right, #3a74f1 -120%, #44bbf1 120%);
+}
+
+.login-box .login-btn-clear {
+    background: linear-gradient(to right, #bebebe -120%, #616161 120%);
+    border: none;
+    border-radius: 5px;
     color: white;
+    font-weight: bolder;
+    font-size: large;
+    width: 100%;
+    height: 50px;
+}
+
+.login-box .login-btn-clear:hover {
+    background: linear-gradient(to right, #616161 -120%, #bebebe 120%);
+}
+
+.edit-pass {
+    background-color: white;
+    width: 40%;
+    padding: 50px;
+    margin-left: 30%;
+    border: none;
+    border-radius: 1%;
+    box-shadow: 5px 10px 10px #2949b4;
+}
+
+.edit-pass h1 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 400%;
+    font-size: 300%;
+}
+
+.edit-pass p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 100%;
+}
+
+.edit-pass .pass-input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.466);
+    outline: none;
+    resize: none;
+}
+
+.edit-pass .btn {
+    background: linear-gradient(to right, #44bbf1 -120%, #3a74f1 120%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    width: 100%;
+    height: 50px;
+}
+
+.edit-pass .btn:hover {
+    background: linear-gradient(to right, #3a74f1 -120%, #44bbf1 120%);
 }
