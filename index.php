@@ -18,13 +18,26 @@
             background-position: center;
             background-color: rebeccapurple;
         }
+
+        .footer{
+            width: 100%;
+            height: 50%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/4419156.jpg");
+            background-size: cover;
+            background-position: center;
+            
+        }
         .footer table td h3 {
             color: rgb(54, 54, 54);
-            font-size: 130%;            
+            font-size: 130%;
+            color: white;            
         }
         .footer table td h1 {
-            color: rgb(167, 167, 167);
             font-family: 'Bebas Neue', cursive;
+            color: white;     
+        }
+        .footer table td p {
+            color: white;     
         }
 
     </style>
@@ -40,21 +53,21 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="images/move3.jpg" alt="First slide">
         <div class="carousel-caption d-none d-md-block">
-            <h2>Welcome</h2>
+            <h2 style="font-size: 600%;">Welcome</h2>
             <p>to JK BOOTSTRAP</p>
         </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/move2.jpg" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
-            <h2>styling</h2>
+            <h2 style="font-size: 600%;">Styling</h2>
             <p>everything</p>
         </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="images/move1.jpg" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
-            <h2>Build it</h2>
+            <h2 style="font-size: 600%;">Build it</h2>
             <p>Uniquely</p>
         </div>
     </div>
@@ -80,10 +93,8 @@
     </div>
     <span class="navbar-text">
         v1.0 &nbsp&nbsp&nbsp&nbsp
-        <a href="files/version.php"><button class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
-  <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-  <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
-</svg> &nbsp Download</button></a>
+        <a href="login/login.php"><button class="btn btn-primary">&nbsp Login</button></a>
+
     </span>
 </nav>
 
@@ -170,7 +181,7 @@
             </tr>
             <tr>
                 <td style="vertical-align: top;">
-                    <p>Develop your web Uniquely</p> with JK BOOTSTRAP
+                    <p>Develop your web Uniquely</p> <p>with JK BOOTSTRAP</p>
                     <p>ongoing version - 1.0</p>
                 </td>
                 <td>
@@ -212,6 +223,7 @@
             </tr>
         </table>
     </center>
+    <br><br>
 
 </div>
 <div class="card text-center">
