@@ -88,21 +88,21 @@ function user_login($username, $pwd){
         else{
             if($login_row['user_status'] == 1){
                 if($login_row['user_roll'] == 'admin'){                    
-                    setcookie('login',$login_row['user_id'],time()+60*60,'/');
-                    $_SESSION['loginSession'] = $login_row['user_id'];
+                    setcookie('login',$login_row['email'],time()+60*60,'/');
+                    $_SESSION['loginSession'] = $login_row['email'];
                     header('location:lib/views/admin.php');
                 }
                 elseif($login_row['otp_no'] == 0){
                     return "<center>&nbsp<div class='alert alert-danger col-10' role='alert'>Verify Your Account <a href='otp.php'>Verify</a></div>&nbsp</center>"; 
                 }else{
                     if($login_row['account_type'] == 'free'){
-                        setcookie('login',$login_row['user_id'],time()+60*60,'/');
-                        $_SESSION['loginSession'] = $login_row['user_id'];
+                        setcookie('login',$login_row['email'],time()+60*60,'/');
+                        $_SESSION['loginSession'] = $login_row['email'];
                         header('location:lib/views/free_user.php');
 
                     }elseif($login_row['account_type'] == 'pro'){
-                        setcookie('login',$login_row['user_id'],time()+60*60,'/');
-                        $_SESSION['loginSession'] = $login_row['user_id'];
+                        setcookie('login',$login_row['email'],time()+60*60,'/');
+                        $_SESSION['loginSession'] = $login_row['email'];
                         header('location:lib/views/admin.php');
                     }
                 }
@@ -174,4 +174,114 @@ function reset_pass($r_email,$npass,$cnpass){
     $update_pass_sql_result = mysqli_query($con, $update_pass_sql);
     header("location:login.php");
 }
+
+function viewUser(){
+    $con = Connection();
+    $email = strval($_SESSION['loginSession']);
+
+    $view_sql = "SELECT * FROM user_tbl WHERE email = '$email'";
+    $view_sql_result = mysqli_query($con, $view_sql);
+
+    $view_nor = mysqli_num_rows($view_sql_result);
+    if($view_nor > 0){
+        while($view_row = mysqli_fetch_assoc($view_sql_result)){
+            echo "
+            <table border='0'>
+            <tr>
+                <td>
+                    <h5><b>First Name</b></h5>
+                    <p></p> 
+                </td>
+                <td>
+                    &nbsp&nbsp:&nbsp&nbsp
+                    <p></p> 
+                </td> 
+                <td>
+                    <h5>".$view_row['fname']."</h5>
+                    <p></p> 
+                </td>                      
+            </tr>
+            <tr>
+                <td>
+                    <h5><b>Last Name</b></h5><p></p>  
+                </td>
+                <td>
+                    &nbsp&nbsp:&nbsp&nbsp<p></p>
+                </td> 
+                <td>
+                    <h5>".$view_row['lname']."</h5><p></p>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                    <h5><b>Username</b></h5><p></p>  
+                </td>
+                <td>
+                    &nbsp&nbsp:&nbsp&nbsp<p></p>
+                </td> 
+                <td>
+                    <h5>".$view_row['username']."</h5><p></p>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                    <h5><b>Email</b></h5><p></p>
+                </td>
+                <td>
+                    &nbsp&nbsp:&nbsp&nbsp<p></p>
+                </td> 
+                <td>
+                    <h5>".$view_row['email']."</h5><p></p>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                    <h5><b>Country</b></h5><p></p> 
+                </td>
+                <td>
+                    &nbsp&nbsp:&nbsp&nbsp<p></p>
+                </td> 
+                <td>
+                    <h5>".$view_row['country']."</h5><p></p>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                    <h5><b>Mobile</b></h5><p></p>  
+                </td>
+                <td>
+                    &nbsp&nbsp:&nbsp&nbsp<p></p>
+                </td> 
+                <td>
+                    <h5>".$view_row['mobile']."</h5><p></p>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                    <h5><b>User Type</b></h5><p></p>  
+                </td>
+                <td>
+                    &nbsp&nbsp:&nbsp&nbsp<p></p>
+                </td> 
+                <td>
+                    <h5>".$view_row['user_roll']."</h5><p></p>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                    <h5><b>Account Type</b></h5><p></p>  
+                </td>
+                <td>
+                    &nbsp&nbsp:&nbsp&nbsp<p></p>
+                </td> 
+                <td>
+                    <h5  style='color:green;'>".$view_row['account_type']."</h5><p></p>
+                </td>   
+            </tr>
+        </table>";
+        }
+    }
+}
+
+
 ?>
